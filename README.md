@@ -19,9 +19,11 @@ Exercises:
 - Take two images and perform operations with them (addition, multiplication, division). Add a GUI, add parameter that change the behaviour of your mixer. Add color picker wheel, select only certain color in the image.
 
 ## 02
+
+![2](img/2.png)
 *Description*:
 
-Blur filter, edge detection and contour detection.
+Blur filter, edge detection, sobel, contour detection. Box2D, ofPolyline, ofPath, ofVboMesh, 
 
 Keywords: `ofxCv::ContourFinder`, [canny edge detection](https://en.wikipedia.org/wiki/Canny_edge_detector), `ofPolyline`, blur filter
 
@@ -45,3 +47,8 @@ Examples in ofxCv: `example-contour-basic`, `example-contour-tracking`, `example
 
 Exercises:
 - Build a slit scanner. Read the last part of the [ofBook](https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html)
+- Find other addons
+
+## 04
+
+- Kinect example

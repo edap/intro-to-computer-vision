@@ -7,7 +7,7 @@ void ofApp::setup() {
     if(useCamera){
         cam.setup(640, 480);
     }else{
-        movie.load("jellyfishes.mp4");
+        movie.load("jellyfishes.mov");
         movie.setLoopState(OF_LOOP_NORMAL);
         movie.play();
     }
@@ -132,9 +132,12 @@ void ofApp::drawPathsAndMeshes(){
     }
 
     if(drawMeshes){
+        ofPushStyle();
+        ofSetColor(0, 255, 0);
         for(auto m:meshes){
             m.drawWireframe();
         }
+        ofPopStyle();
     }
 }
 

@@ -47,10 +47,13 @@ void ofApp::update() {
 }
 
 void ofApp::draw() {
-    //ofSetColor(255);
+    //
 	//cam.draw(0, 0);
 	ofSetLineWidth(2);
+    ofPushStyle();
+    ofSetColor(0);
 	tracker.draw();
+    ofPopStyle();
     
     auto featurePolyline = tracker.getImageFeature(ofxFaceTracker::OUTER_MOUTH);
 
