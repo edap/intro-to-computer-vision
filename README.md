@@ -3,11 +3,11 @@
 In this course we are going to cover first the principles of computer vision, and then we are going to apply them to different camera capture techniques.
 
 ## 01
-Description:
+*Description*:
 
 Introduction to computer vision. We read through the [computer visionchapter on the ofBook](https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html).
 
-Keywords:
+*Keywords*:
 
 `getBrightness()`, image types, image containers, openCV, point processing operations, background subtraction, frame differencing, absolute frame differencing
 
@@ -19,7 +19,7 @@ Exercises:
 - Take two images and perform operations with them (addition, multiplication, division). Add a GUI, add parameter that change the behaviour of your mixer. Add color picker wheel, select only certain color in the image.
 
 ## 02
-Description:
+*Description*:
 
 Blur filter, edge detection and contour detection.
 
@@ -27,8 +27,6 @@ Keywords: `ofxCv::ContourFinder`, [canny edge detection](https://en.wikipedia.or
 
 Contours
 
-Now
-Contour detection after background subtraction?
 
 Exercise:
 - Start to take notes of the classes that you use in your code, the methods called, the examples where you have seen them, the sketches where you have already used it.
