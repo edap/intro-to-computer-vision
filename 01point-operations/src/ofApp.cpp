@@ -11,8 +11,6 @@ void ofApp::setup(){
     lincolnOfImage.setImageType(OF_IMAGE_GRAYSCALE);
 
     // Set the lincolnCvImage from the pixels of this ofImage.
-    int imgW = lincolnOfImage.getWidth();
-    int imgH = lincolnOfImage.getHeight();
     auto lincolnPixels = lincolnOfImage.getPixels();
     lincolnCvImageSrc.setFromPixels( lincolnPixels);
 
