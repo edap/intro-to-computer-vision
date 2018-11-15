@@ -10,6 +10,7 @@ Release*/
 *.app/
 *.pyc
 .svn/
+*.mov
 
 #XCode
 *.pbxuser

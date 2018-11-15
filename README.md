@@ -27,13 +27,11 @@ Exercises:
 Keywords: Blur filter, sobel, contour detection. Box2D, ofPolyline, ofPath, ofVboMesh, `ofxCv::ContourFinder`, [canny edge detection](https://en.wikipedia.org/wiki/Canny_edge_detector), `ofPolyline`, blur filter
 
 
-Exercise:
+Exercises:
 - Start to take notes of the classes that you use in your code, the methods called, the examples where you have seen them, the sketches where you have already used it.
 - Start to take notes of the errors that your IDE gives (hopefully just occasionally) to you.
 - take a video file, apply contour detection and create a mesh with it (see `02-filters-and-contours`)
 - Read the paragraph "Contour Games" in the [ofBook](https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html), make an interactive application using contour detection and box2D
-
-Exercise:
 - Make an interactive application that uses contours. It can use the camera or a video file. It does not need to be a game.
 
 Other facultative exercises:
@@ -55,3 +53,9 @@ Exercises:
 ## 04
 
 - Kinect example
+
+## Advanced, infrared camera
+
+- How to make your own [IR camera]()
+- Resource, [post on the vvvv forum](https://discourse.vvvv.org/t/highly-infrared-reflective-paint-tape-or-fabric/10400)
+- Resource, post on the [OF Forum](https://forum.openframeworks.cc/t/kinect-vs-ir-camera-in-theatrical-performances/30906/9)
