@@ -50,6 +50,16 @@ Exercises:
 - Build a slit scanner. Read the last part of the [ofBook](https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html)
 - Find other addons
 
+[Reference](http://www.flong.com/texts/lists/slit_scan/)
+
+## 04
+Pixel operations
+
+## 05 Shaders
+
+[Read](https://thebookofshaders.com/01/)
+[Reference](https://openframeworks.cc/ofBook/chapters/shaders.html)
+
 ## 04
 
 - Kinect example
