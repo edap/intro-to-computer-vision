@@ -16,21 +16,20 @@ void ofApp::update(){
 
 	if ( video.isFrameNew() ) {
         ofPixels pixels = video.getPixels();
-
 		for (int y=0; y<pixels.getHeight(); y++) {
 			for (int x=0; x<pixels.getWidth(); x++) {
 				ofColor col = pixels.getColor( x, y );
 
-				//Change color components using the random colors
+                //Change color components using the random colors
                 col.r = randomColors[ col.r/N_RANDOM_COLORS];
                 col.g = randomColors[ col.g/N_RANDOM_COLORS ];
                 col.b = randomColors[ col.b/N_RANDOM_COLORS ];
 
                 // Invent your own algorithm
-//                int index = (x+y) % N_RANDOM_COLORS;
-//                col.r = randomColors[ col.r/randomColors[index] ];
-//                col.g = randomColors[ col.g/randomColors[index] ];
-//                col.b = randomColors[ col.b/randomColors[index] ];
+                // int index = (x+y) % N_RANDOM_COLORS;
+                // col.r = randomColors[ col.r/randomColors[index] ];
+                // col.g = randomColors[ col.g/randomColors[index] ];
+                // col.b = randomColors[ col.b/randomColors[index] ];
 
 				pixels.setColor( x, y, col );
 			}
