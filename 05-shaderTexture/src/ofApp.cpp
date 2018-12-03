@@ -17,7 +17,6 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    cam.getTexture().bind();
     shader.begin();
     // pass a uniform with mouse pos.
     shader.setUniformTexture("tex0", cam.getTexture(), 0);
@@ -25,7 +24,6 @@ void ofApp::draw(){
     shader.setUniform2f("uResolution", ofGetWidth(), ofGetHeight());
     plane.draw();
     shader.end();
-    cam.getTexture().unbind();
 }
 
 //--------------------------------------------------------------

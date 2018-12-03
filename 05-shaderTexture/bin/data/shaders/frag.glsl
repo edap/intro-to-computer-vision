@@ -12,6 +12,6 @@ void main(){
     vec4 finalColor;
     vec2 coord = vTexCoord;
 
-    finalColor = texture(tex0, uv);
+    finalColor = texture(tex0, coord);
     outputColor = finalColor;
 }
