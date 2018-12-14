@@ -59,6 +59,7 @@ Pixel operations
 
 [Read](https://thebookofshaders.com/01/)
 [Reference](https://openframeworks.cc/ofBook/chapters/shaders.html)
+[hughsk](http://hughsk.io/fragment-foundry/chapters/01-hello-world.html)
 
 ## 04
 
