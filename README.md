@@ -1,4 +1,4 @@
-# Experimental Computer Vision
+# Intro to Computer Vision
 
 In this course we are going to cover first the principles of computer vision, and then we are going to apply them to different camera capture techniques.
 
